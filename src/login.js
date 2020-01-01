@@ -19,7 +19,7 @@ class Login extends Component {
             {
               user
                 ? <p>Hello, {user.displayName}</p>
-                : <p>Please sign in.</p>
+                : <p>Please sign in with your Google Account.</p>
             }
   
             {
